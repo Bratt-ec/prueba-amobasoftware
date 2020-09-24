@@ -1,0 +1,68 @@
+*{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+}  
+.padding-sub{
+    padding-left: 20px;
+}
+
+.recent-work{
+    background-color: #ECEEDD;
+    padding-bottom: 40px;
+}
+
+.lastest-new{
+    padding-bottom: 40px;
+}
+
+::placeholder {
+    color: rgb(5, 20, 85);
+    font-size: 1em;
+    font-weight: bold;
+}
+  
+.form-rounded {
+    box-shadow: 0 0 5px rgb(86, 37, 179);
+    border-radius: 1.7rem;
+    width: 600px;
+}
+.formulario{
+    margin-left: 40%;
+}
+
+.card-img {
+    margin-top: 20%;
+}
+.card{
+    border: none;
+}
+.news-img{
+ float: left;
+
+}
+.boton{
+    border-radius: 9rem;
+    height: 60%;
+    padding: .9rem 2rem;
+    margin-left: 125%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .form-rounded {
+        width: 100%;
+    }
+    .formulario{
+        margin-left: 0;
+    }
+    .card-img {
+        display: none;
+    }
+    .boton{
+        margin-left: 35%;
+    }
+  }
